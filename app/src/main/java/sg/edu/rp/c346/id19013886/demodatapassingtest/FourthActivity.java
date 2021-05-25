@@ -20,7 +20,7 @@ public class FourthActivity extends AppCompatActivity {
         tvAnswer = findViewById(R.id.textView3);
         Intent intentReceived = getIntent();
         double value = intentReceived.getDoubleExtra("value", 0);
-        tvAnswer.setText("Character value received is: " + value);
+        tvAnswer.setText("Double value received is: " + value);
 
     }
 }
